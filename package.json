@@ -20,5 +20,9 @@
   "bugs": {
     "url": "https://github.com/BlackbirdDigital/temi-speaker-captions/issues"
   },
-  "homepage": "https://github.com/BlackbirdDigital/temi-speaker-captions#readme"
+  "homepage": "https://github.com/BlackbirdDigital/temi-speaker-captions#readme",
+  "dependencies": {
+    "moment": "^2.29.4",
+    "moment-duration-format": "^2.3.2"
+  }
 }

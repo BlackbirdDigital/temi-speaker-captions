@@ -1,0 +1,24 @@
+{
+  "name": "@b.d/temi-speaker-captions",
+  "version": "1.0.0",
+  "description": "Convert Temi transcription service text files into current speaker captions.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/BlackbirdDigital/temi-speaker-captions.git"
+  },
+  "keywords": [
+    "temi",
+    "captions",
+    "srt"
+  ],
+  "author": "Cory Hughart <cory@blackbird.digital>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/BlackbirdDigital/temi-speaker-captions/issues"
+  },
+  "homepage": "https://github.com/BlackbirdDigital/temi-speaker-captions#readme"
+}

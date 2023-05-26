@@ -82,8 +82,8 @@ for (let i = 0; i < lines.length; i++) {
 			// If the speaker has changed, output a caption that includes the index, the last speaker's name, and the time range.
 			if (lastSpeaker !== null) {
 				outputLines.push(++index);
-				outputLines.push(`${lastSpeakerTime} --> ${time}`);
-				outputLines.push(lastSpeaker);
+				outputLines.push(`${lastSpeakerTime},000 --> ${time},000`);
+				outputLines.push(`${lastSpeaker}:`);
 				outputLines.push('');
 			}
 
@@ -100,8 +100,8 @@ for (let i = 0; i < lines.length; i++) {
 			.add(1, 'minute')
 			.format('hh:mm:ss');
 		outputLines.push(++index);
-		outputLines.push(`${lastSpeakerTime} --> ${time}`);
-		outputLines.push(lastSpeaker);
+		outputLines.push(`${lastSpeakerTime},000 --> ${time},000`);
+		outputLines.push(`${lastSpeaker}:`);
 		outputLines.push('');
 	}
 }
